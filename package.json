@@ -1,0 +1,18 @@
+{
+  "name": "openai-bot",
+  "version": "0.0.2",
+  "description": "Interact with OpenAI Models using OpenAI API",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "author": "Uo",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "discord.js": "^14.7.1",
+    "express": "^4.18.2",
+    "openai": "^3.1.0",
+    "sqlite3": "^5.1.4"
+  }
+}
